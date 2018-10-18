@@ -14,7 +14,7 @@ class Triangle:
         self.A = A
         self.B = B
         self.C = C
-        # Поиск длины сторон.
+        # Поиск длины сторон треугольника.
         self.AB = sideLen(self.A, self.B)
         self.BC = sideLen(self.B, self.C)
         self.CA = sideLen(self.C, self.A)
